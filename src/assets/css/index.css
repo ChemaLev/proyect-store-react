@@ -1,0 +1,115 @@
+:root {
+    --primary:  #ff3b3b;
+    --secondary: #7424a6;
+
+    --white: #ffffff;
+    --black: #373738;
+    --gray: #f0f0f0;
+    --gray-dark: #696969;
+    --green: #458f17;
+
+    --font-family: "Inter", sans-serif;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url(../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.ttf)
+}
+
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--black);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 1220px;
+    margin: 0 auto;
+    height: inherit;
+    min-height: inherit;
+}
+
+/* Hero Section */
+
+section .hero-item{
+    display: block;
+    text-align: left;
+    color: var(--white);
+    font-weight: 600;
+    line-height: .9;
+}
+
+section#hero .hero-titles {
+    align-items: start;
+    justify-content: center;
+} 
+
+section .hero-item:first-child {
+    font-size: 2.5rem;
+}
+
+section .hero-item:last-child {
+    font-size: 4rem;
+}
+
+
+/* Home Section */
+
+span#hero .container {
+    align-items: start;
+    justify-content: center;
+} 
+
+span .container .hero-item{
+    display: block;
+    text-align: left;
+    color: var(--white);
+    font-weight: 600;
+    line-height: .9;
+}
+
+.hero-item:first-child {
+    font-size: 2.5rem;
+}
+
+.hero-item:last-child {
+    font-size: 4rem;
+}
+
+section {
+    height: 340px;
+}
+
+section#hero {
+    background: url('../public/hero_bg.png');
+    background-size: cover;
+    background-position: top center;
+}
+
+main {
+    height: auto;
+}
+
+.product-container {
+    width: 100%;
+    padding: 30px 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-rows: auto;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}
