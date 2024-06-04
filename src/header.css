@@ -1,0 +1,75 @@
+.header {
+    padding: 20px;
+    background-color: var(--primary);
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin: 20px 0;
+}
+
+.header-content .logo img {
+    display: block;
+}
+
+.header-content form {
+    text-align: center;
+}
+
+.header-content .form input {
+    height: 60px;
+    width: 80%;
+    border: none;
+    border-radius: 15px;  
+    font-size: 1rem;
+    text-align: center;
+    outline: 0;
+}
+
+.header-content .form input::placeholder {
+    font-size: 1rem;
+}
+
+.social-media ul {
+    display: flex;
+    position: relative;
+    justify-content: end;
+    gap: 20px;
+}
+
+.social-media li a {
+    color: var(--white);
+}
+
+.social-media li a .font-icons{
+    font-size: 2rem;
+}
+
+.social-media ul .qty-products {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    top: -20px;
+    right: -15px;
+    border-radius: 100%;
+    color: var(--primary);
+    font-weight: 600;
+    background-color: var(--white);
+    border: 5px solid var(--primary);
+}
+
+.header-nav ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px 10px;
+}
+
+.header-nav ul li a{
+    font-weight: 600;
+    color: var(--white);
+}
