@@ -5,6 +5,7 @@ import { faFacebook, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { NavBarLink } from "./NavBarLink";
 
 import "../assets/css/NavBar.css"
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     return (
@@ -12,7 +13,7 @@ const Navbar = () => {
             <div className="container">
                 <div className="header-content">
                     <div className="logo">
-                        <a href="./index.html"><img src="../../public/tiendamia-logo.svg" width="218" alt="Logo store" /></a>
+                        <Link to="/"><img src="../../public/tiendamia-logo.svg" width="218" alt="Logo store" /></Link>
                     </div>
                     <div className="form">
                     <form>
@@ -21,10 +22,10 @@ const Navbar = () => {
                     </div>
                     <div className="social-media" id="socialMedia">
                         <ul>
-                            <li><a href="#"><FontAwesomeIcon className="font-icons" icon={faHeart} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon className="font-icons" icon={faFacebook} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon className="font-icons" icon={faInstagram} /></a></li>
-                            <li><a href="#"><FontAwesomeIcon className="font-icons" icon={faCartShopping} /></a></li>
+                            <li><Link to="#"><FontAwesomeIcon className="font-icons" icon={faHeart} /></Link></li>
+                            <li><Link to="#"><FontAwesomeIcon className="font-icons" icon={faFacebook} /></Link></li>
+                            <li><Link to="#"><FontAwesomeIcon className="font-icons" icon={faInstagram} /></Link></li>
+                            <li><Link to="/cart"><FontAwesomeIcon className="font-icons" icon={faCartShopping} /></Link></li>
                         </ul>
                     </div>
                 </div>

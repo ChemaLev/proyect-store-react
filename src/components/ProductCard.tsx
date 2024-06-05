@@ -1,11 +1,12 @@
+import { Link } from "react-router-dom";
 import "../assets/css/ProductCard.css"
 
 const ProductCard = () => {
   return (
     <article id="" className="product-card">
-      <a className="product-source" href="#">
+      <Link className="product-source" to="#">
         <img className="product-img" src="../public/mock1.jpg" alt="Iphone" />
-      </a>
+      </Link>
       <div className="product-info">
         <span className="product-title">Iphone 12</span>
         <span className="product-description">Red</span>

@@ -2,7 +2,6 @@ import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import ProductCard from "../components/ProductCard";
 import Hero from "../components/Hero";
-import "../assets/css/index.css";
 
 function Home() {
   return (
