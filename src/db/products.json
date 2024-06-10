@@ -1,0 +1,139 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung Galaxy Z Flip",
+      "description": "FLEX YOUR BEST ANGLE: With Flex Mode, just unfold your mobile phone’s screen to your best angle for hands-free pics and video calls; Choose what you want to capture, set it down, stand back and shoot your best shot A CAMERA THAT GOES STEADY: Thanks to SAMSUNG Galaxy Z Flip3s Super Steady feature, you can just set it down and strike a pose for picture perfect selfies ULTRA COMPACT, ULTRA COOL: Show your style game without the trades; With a compact design that unfolds, you don’t have to compromise screen size for your favorite outfit.",
+      "price": 1095,
+      "stock": 20,
+      "images": [
+        "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_b6fa8f47_mirakl_image_1_large.jpg",
+        "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_b6fa8f47_mirakl_image_2_large.jpg",
+        "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_b6fa8f47_mirakl_image_3_large.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 25
+    },
+    {
+      "id": 2,
+      "name": "Lenovo Tab M8",
+      "description": "The Lenovo Tab M8 8.0 16GB Gray (TB-8505F) is a sleek and versatile tablet designed for entertainment and productivity on the go. With its compact 8-inch display, it's easy to hold in one hand and ideal for browsing the web, watching videos, or reading e-books. This WiFi-only tablet offers fast and reliable internet connectivity, ensuring you stay connected wherever there's a WiFi network available. With 16GB of storage, you have ample space for apps, photos, and documents, and you can expand it further using a microSD card. The stylish gray finish adds a touch of sophistication to your tech collection, making it both functional and fashionable. Whether you're a student, professional, or simply looking for a portable device to stay connected, the Lenovo Tab M8 is a fantastic choice.",
+      "price": 369,
+      "stock": 20,
+      "images": [
+        "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_1233510c_mirakl_image_1_large.jpg",
+        "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_1233510c_mirakl_image_2_large.jpg",
+        "https://static-catalog.tiendamia.com/marketplace_manager_service/production/product_1233510c_mirakl_image_3_large.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 20
+    },
+    {
+      "id": 3,
+      "name": "Apple iPhone 14 Pro",
+      "description": "Apple iPhone 14 Pro, 128GB, Space Black - Unlocked (Renewed)",
+      "price": 3489,
+      "stock": 20,
+      "images": [
+        "https://m.media-amazon.com/images/I/41unFEi+6WL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/31nNONV5e8L._AC_.jpg",
+        "https://m.media-amazon.com/images/I/41bVlsUUFHL._AC_.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 15
+    },
+    {
+      "id": 4,
+      "name": "Motorola One Ace",
+      "description": "Motorola one ace is here which could only mean one thing. Super-fast speed for all. Now you dont have to spend a fortune for movies that download in seconds, ultra-clear video chats, and games without the wait. Go over two days on a single charge with a 5000 mAh battery. View everything in vivid, true-to-life color on the 6.7'' Full HD+ Max Vision display. Capture sharper low-light photos, ultra-wide angle shots, and more with the 48 MP camera system. And get the speed you crave with the latest Qualcomm processor. The future is fast, and its here today with motorola one ace.",
+      "price": 505,
+      "stock": 20,
+      "images": [
+        "https://m.media-amazon.com/images/I/51JEsDX-ynL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/51oGYHda4wL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/51bEU8v6fkL._AC_SL1000_.jpg",
+        "https://m.media-amazon.com/images/I/51FgW7CHN8L._AC_SL1000_.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 10
+    },
+    {
+      "id": 5,
+      "name": "Ipad Pro",
+      "description": "The iPad Pro 12.9 is a stunning piece of technology, boasting a large 12.9-inch Retina display with ProMotion technology. With 256GB of storage, this iPad provides ample space for all your files, apps, and multimedia content. The sleek and slim design, combined with the silver color, gives it a sophisticated look. Enjoy seamless connectivity with the WiFi feature. Capture your memorable moments with the high-quality camera and relive them on the impressive screen. Whether you're a professional artist, student, or just someone who appreciates cutting-edge technology, the iPad Pro 12.9 is a versatile device that meets all your needs.",
+      "price": 3500,
+      "stock": 20,
+      "images": [
+        "https://i.postimg.cc/kX8PKZpq/ipad.jpg",
+        "https://i.postimg.cc/jqBrWKvM/ipad2.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 30
+    },
+    {
+      "id": 6,
+      "name": "Ipad Pro",
+      "description": "The iPad Pro 12.9 is a stunning piece of technology, boasting a large 12.9-inch Retina display with ProMotion technology. With 256GB of storage, this iPad provides ample space for all your files, apps, and multimedia content. The sleek and slim design, combined with the silver color, gives it a sophisticated look. Enjoy seamless connectivity with the WiFi feature. Capture your memorable moments with the high-quality camera and relive them on the impressive screen. Whether you're a professional artist, student, or just someone who appreciates cutting-edge technology, the iPad Pro 12.9 is a versatile device that meets all your needs.",
+      "price": 3500,
+      "stock": 20,
+      "images": [
+        "https://i.postimg.cc/kX8PKZpq/ipad.jpg",
+        "https://i.postimg.cc/jqBrWKvM/ipad2.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 50
+    },
+    {
+      "id": 7,
+      "name": "Ipad Pro",
+      "description": "The iPad Pro 12.9 is a stunning piece of technology, boasting a large 12.9-inch Retina display with ProMotion technology. With 256GB of storage, this iPad provides ample space for all your files, apps, and multimedia content. The sleek and slim design, combined with the silver color, gives it a sophisticated look. Enjoy seamless connectivity with the WiFi feature. Capture your memorable moments with the high-quality camera and relive them on the impressive screen. Whether you're a professional artist, student, or just someone who appreciates cutting-edge technology, the iPad Pro 12.9 is a versatile device that meets all your needs.",
+      "price": 3500,
+      "stock": 20,
+      "images": [
+        "https://i.postimg.cc/kX8PKZpq/ipad.jpg",
+        "https://i.postimg.cc/jqBrWKvM/ipad2.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 50
+    },
+    {
+      "id": 8,
+      "name": "Ipad Pro",
+      "description": "The iPad Pro 12.9 is a stunning piece of technology, boasting a large 12.9-inch Retina display with ProMotion technology. With 256GB of storage, this iPad provides ample space for all your files, apps, and multimedia content. The sleek and slim design, combined with the silver color, gives it a sophisticated look. Enjoy seamless connectivity with the WiFi feature. Capture your memorable moments with the high-quality camera and relive them on the impressive screen. Whether you're a professional artist, student, or just someone who appreciates cutting-edge technology, the iPad Pro 12.9 is a versatile device that meets all your needs.",
+      "price": 3500,
+      "stock": 20,
+      "images": [
+        "https://i.postimg.cc/kX8PKZpq/ipad.jpg",
+        "https://i.postimg.cc/jqBrWKvM/ipad2.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 50
+    },
+    {
+      "id": 9,
+      "name": "Ipad Pro",
+      "description": "The iPad Pro 12.9 is a stunning piece of technology, boasting a large 12.9-inch Retina display with ProMotion technology. With 256GB of storage, this iPad provides ample space for all your files, apps, and multimedia content. The sleek and slim design, combined with the silver color, gives it a sophisticated look. Enjoy seamless connectivity with the WiFi feature. Capture your memorable moments with the high-quality camera and relive them on the impressive screen. Whether you're a professional artist, student, or just someone who appreciates cutting-edge technology, the iPad Pro 12.9 is a versatile device that meets all your needs.",
+      "price": 3500,
+      "stock": 20,
+      "images": [
+        "https://i.postimg.cc/kX8PKZpq/ipad.jpg",
+        "https://i.postimg.cc/jqBrWKvM/ipad2.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 50
+    },
+    {
+      "id": 10,
+      "name": "Ipad Pro",
+      "description": "The iPad Pro 12.9 is a stunning piece of technology, boasting a large 12.9-inch Retina display with ProMotion technology. With 256GB of storage, this iPad provides ample space for all your files, apps, and multimedia content. The sleek and slim design, combined with the silver color, gives it a sophisticated look. Enjoy seamless connectivity with the WiFi feature. Capture your memorable moments with the high-quality camera and relive them on the impressive screen. Whether you're a professional artist, student, or just someone who appreciates cutting-edge technology, the iPad Pro 12.9 is a versatile device that meets all your needs.",
+      "price": 4000,
+      "stock": 20,
+      "images": [
+        "https://i.postimg.cc/kX8PKZpq/ipad.jpg",
+        "https://i.postimg.cc/jqBrWKvM/ipad2.jpg"
+      ],
+      "colors": ["Silver", "Space Gray", "Gold"],
+      "discount": 50
+    }
+  ]
+}

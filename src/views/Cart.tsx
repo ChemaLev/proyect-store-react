@@ -1,12 +1,12 @@
-import Navbar from "../components/NavBar";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
 import "../assets/css/Cart.css";
+import Navbar from "../components/NavBar";
 
 const Cart = () => {
   return (
     <>
-      <Navbar />
+      <Navbar showInput={false} />
       <Hero textPrincipal="mi" textSecondary="carrito" />
 
       <main>

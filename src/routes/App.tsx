@@ -1,9 +1,10 @@
 import Home from "../views/Home";
-import ProductDetails from "../views/ProductDetails";
+import ProductDetails from "../views/DetailsView";
 import Cart from "../views/Cart";
 import NotFound from "../views/NotFound";
 import { createBrowserRouter } from "react-router-dom";
 import "../assets/css/index.css";
+import DetailsView from "../views/DetailsView";
 
 const routes = [
   {
@@ -11,8 +12,8 @@ const routes = [
     element: <Home />,
   },
   {
-    path: "/product-details",
-    element: <ProductDetails />,
+    path: "/product-details/:id",
+    element: <DetailsView />,
   },
   {
     path: "/cart",
