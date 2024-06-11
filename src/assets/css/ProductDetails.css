@@ -186,3 +186,8 @@ span.qualification {
     color: var(--primary);
     border: 1px solid var(--primary);
 }
+
+.btn-remove {
+    background-color: #000;
+    color: var(--white);
+}

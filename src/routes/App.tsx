@@ -1,5 +1,4 @@
 import Home from "../views/Home";
-import ProductDetails from "../views/DetailsView";
 import Cart from "../views/Cart";
 import NotFound from "../views/NotFound";
 import { createBrowserRouter } from "react-router-dom";

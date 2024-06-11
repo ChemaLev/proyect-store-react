@@ -1,6 +1,7 @@
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
-import ProductCard, { ProductProps } from "../components/ProductCard";
+import ProductCard from "../components/ProductCard";
+import { type ProductProps } from "../types";
 import Hero from "../components/Hero";
 import { products as initialProducts } from "../db/products.json";
 import { useState } from "react";

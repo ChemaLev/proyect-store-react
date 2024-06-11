@@ -1,18 +1,9 @@
+import { type ProductProps } from "../types"
 import { Link } from "react-router-dom";
 import "../assets/css/ProductCard.css"
 
-export type ProductProps = {
-  id: number
-  name: string
-  description?: string
-  price: number
-  stock?: number
-  images: string[]
-  colors?: string[]
-  discount?: number
-}
-
-const ProductCard = ({ id, name, price, images, discount, colors }: ProductProps) => {
+// Realización del tipado del componente de función y las props recibidas
+const ProductCard: React.FC<ProductProps> = ({ id, name, price, images, discount, colors }) => {
 
   return (
     <article id={`${id}`} className="product-card">
