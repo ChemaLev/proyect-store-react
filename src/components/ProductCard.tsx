@@ -1,10 +1,16 @@
-import { type ProductProps } from "../types"
+import { type ProductProps } from "../types";
 import { Link } from "react-router-dom";
-import "../assets/css/ProductCard.css"
+import "../assets/css/ProductCard.css";
 
 // Realización del tipado del componente de función y las props recibidas
-const ProductCard: React.FC<ProductProps> = ({ id, name, price, images, discount, colors }) => {
-
+const ProductCard: React.FC<ProductProps> = ({
+  id,
+  name,
+  price,
+  images,
+  discount,
+  colors,
+}) => {
   return (
     <article id={`${id}`} className="product-card">
       <Link className="product-source" to={`/product-details/${id}`}>
@@ -12,7 +18,7 @@ const ProductCard: React.FC<ProductProps> = ({ id, name, price, images, discount
       </Link>
       <div className="product-info">
         <span className="product-title">{name}</span>
-        <span className="product-description">{colors?.join(' - ')}</span>
+        <span className="product-description">{colors?.join(" - ")}</span>
         <div className="product-price-block">
           <span className="price">S/.{price}</span>
           <span className="discount">{discount}% Off</span>

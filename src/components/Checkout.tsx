@@ -1,7 +1,8 @@
 import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ProductDetail, ProductProps } from "../types";
-import React, { useState } from "react";
+import Button from "./Button";
+import React, { useEffect, useRef, useState } from "react";
 
 interface CartProps extends ProductProps {
   quantityProduct: number;
@@ -9,18 +10,18 @@ interface CartProps extends ProductProps {
 
 const Checkout: React.FC<ProductDetail> = ({ product }) => {
   const [quantity, setQuantity] = useState(1);
+  const unitsProduct = useRef<HTMLInputElement>(null);
 
-  if (!localStorage.getItem("cart")) {
-    localStorage.setItem("cart", JSON.stringify([]));
-  }
   const { price, discount } = product;
 
-  const handleQuantityChange = (event: React.ChangeEvent<HTMLInputElement>) => {
-    const newQuantity = Number(event.target.value);
-    setQuantity(newQuantity);
+  const handleQuantityChange = () => {
+    if (unitsProduct.current) {
+      const newQuantity = Number(unitsProduct.current.value);
+      setQuantity(newQuantity);
+    }
   };
 
-  const handleBtnChange = () => {
+  const handleAddProductCart = () => {
     const cart: CartProps[] = JSON.parse(localStorage.getItem("cart") ?? "[]");
     const newProduct = {
       ...product,
@@ -35,10 +36,22 @@ const Checkout: React.FC<ProductDetail> = ({ product }) => {
       cart.push(newProduct);
     }
 
-    alert(`Agregaste ${quantity} productos al carrito`)
-
     localStorage.setItem("cart", JSON.stringify(cart));
   };
+
+  useEffect(() => {
+    if (localStorage.getItem("cart")) {
+      const productsOnCart: CartProps[] = JSON.parse(
+        localStorage.getItem("cart") ?? "[]"
+      );
+      const productFind = productsOnCart.find(
+        (element) => element.id == product.id
+      );
+      setQuantity(productFind?.quantityProduct ?? 1);
+    } else {
+      localStorage.setItem("cart", JSON.stringify([]));
+    }
+  }, [product.id]);
 
   return (
     <div className="product-prices">
@@ -77,21 +90,22 @@ const Checkout: React.FC<ProductDetail> = ({ product }) => {
             id="quantityProduct"
             min="1"
             max="99"
-            defaultValue={quantity}
+            value={quantity}
+            ref={unitsProduct}
             onChange={handleQuantityChange}
           />
         </div>
         <div className="call">
-          <button type="button" className="btn btn-primary">
+          <Button typeBtn="button" custom="primary">
             Comprar
-          </button>
-          <button
-            type="button"
-            className="btn btn-secondary"
-            onClick={handleBtnChange}
+          </Button>
+          <Button
+            typeBtn="button"
+            custom="secondary"
+            onClick={handleAddProductCart}
           >
-            Agregar al carrito
-          </button>
+            Agregar del carrito
+          </Button>
         </div>
       </div>
     </div>

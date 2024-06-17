@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ProductDetail } from "../types";
 
 const Thumbs: React.FC<ProductDetail> = ({ product }) => {
@@ -13,6 +13,11 @@ const Thumbs: React.FC<ProductDetail> = ({ product }) => {
       setImageFull(newImage);
     }
   };
+  
+  // Como el estado de las imágenes se conserva, colocamos el useEffect para poder modificar la imagen principal(useState -> imageFull) 
+  useEffect(() => {
+    setImageFull(images[0]);
+  }, [product.id, images]);
 
   return (
     <div className="product-images">

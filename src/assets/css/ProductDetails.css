@@ -187,6 +187,19 @@ span.qualification {
     border: 1px solid var(--primary);
 }
 
+.btn-icons {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    padding: 0;
+    color: #b2b2b2;
+    background-color: transparent;
+}
+
+.btn-icons:hover {
+    color: var(--primary);
+}
+
 .btn-remove {
     background-color: #000;
     color: var(--white);

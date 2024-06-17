@@ -5,12 +5,11 @@ import Thumbs from "./Thumbs";
 import Checkout from "./Checkout";
 
 const ProductCardDetails: React.FC<ProductDetail> = ({ product }) => {
-
   return (
     <div className="product-detail" id="productDetail">
       <Thumbs product={product} />
       <Description product={product} />
-      <Checkout product={product}/>
+      <Checkout product={product} />
     </div>
   );
 };

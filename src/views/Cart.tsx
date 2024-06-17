@@ -1,9 +1,13 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Hero from "../components/Hero";
 import Footer from "../components/Footer";
-import "../assets/css/Cart.css";
 import Navbar from "../components/NavBar";
+import Button from "../components/Button";
+import "../assets/css/Cart.css";
+import { faHeart, faTrashCan } from "@fortawesome/free-regular-svg-icons";
 
 const Cart = () => {
+
   return (
     <>
       <Navbar showInput={false} />
@@ -19,7 +23,15 @@ const Cart = () => {
                   <p>Iphone</p>
                   <p>- Red</p>
                   <p>Elevate your audio experiencie with the bose...</p>
-                  <input type="number" min="1" id="inputQty" />
+                  <div className="purchase-items">
+                    <input type="number" min="1" id="inputQty" value={1}/>
+                    <Button typeBtn="button" custom="icons">
+                      <FontAwesomeIcon icon={faHeart} />
+                    </Button>
+                    <Button typeBtn="button" custom="icons">
+                      <FontAwesomeIcon icon={faTrashCan} />
+                    </Button>
+                  </div>
                 </div>
                 <p>S/. 100</p>
               </article>
@@ -30,13 +42,9 @@ const Cart = () => {
                 Total: <span id="purchaseTotal"></span>
               </h4>
               <span>Incluye impuestos Pais y percepción AFIP</span>
-              <button
-                type="button"
-                className="btn btn-primary"
-                id="btnEndPurchase"
-              >
+              <Button typeBtn="button" custom="primary">
                 Comprar
-              </button>
+              </Button>
             </div>
           </div>
         </div>
