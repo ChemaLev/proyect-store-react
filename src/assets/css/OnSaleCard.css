@@ -1,0 +1,23 @@
+.product-title-onsale {
+    display: block;
+    font-size: .8rem;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 5px;
+    word-wrap: break-word; /* evitar que el texto se desborde de su contenedor */
+}
+
+.product-price-onsale{
+    display: block;
+    font-size: .8rem;
+}
+
+.product-price-block .price-onsale {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.discount-onsale {
+    font-size: 15px;
+    color: var(--green);
+}

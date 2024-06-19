@@ -13,7 +13,7 @@ const ProductCard: React.FC<ProductProps> = ({
 }) => {
   return (
     <article id={`${id}`} className="product-card">
-      <Link className="product-source" to={`/product-details/${id}`}>
+      <Link className="product-source hover:" to={`/product-details/${id}`}>
         <img className="product-img" src={images[0]} alt="Iphone" />
       </Link>
       <div className="product-info">

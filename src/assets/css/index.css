@@ -99,6 +99,7 @@ main {
 
 .product-container {
     width: 100%;
+    position: relative;
     padding: 30px 15px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));

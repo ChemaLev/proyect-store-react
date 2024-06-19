@@ -4,7 +4,7 @@ import "../assets/css/ProductDetails.css";
 import { useParams } from "react-router-dom";
 import { products } from "../db/products.json";
 import ProductCardDetails from "../components/ProductCardDetails";
-import ProductCard from "../components/ProductCard";
+import Carousel from "../components/Carousel";
 
 const DetailsView = () => {
   const { id } = useParams<string>();
@@ -26,23 +26,7 @@ const DetailsView = () => {
 
           <h2>Ofertas de la semana</h2>
 
-          <div className="product-container">
-            {products.slice(0, 3).map((product, index) => {
-              return (
-                <ProductCard
-                  key={index}
-                  id={product.id}
-                  name={product.name}
-                  description={product.description}
-                  price={product.price}
-                  stock={product.stock}
-                  images={product.images}
-                  colors={product.colors}
-                  discount={product.discount}
-                />
-              );
-            })}
-          </div>
+          <Carousel ></Carousel>
         </div>
       </main>
 
