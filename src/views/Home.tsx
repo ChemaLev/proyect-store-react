@@ -28,8 +28,8 @@ function Home() {
       <NavBar showInput={true} onChange={handleSearch} />
       <Hero textPrincipal="tecnología" textSecondary="renovada" />
       <main>
-        <div className="container">
-          <div id="productList" className="product-container">
+        <div className="flex flex-col w-[90%] max-w-[1220px] mx-auto h-inherit min-h-inherit">
+          <div id="product-list" className="w-full relative py-[30px] px-[15px] grid grid-cols-[repeat(auto-fit,minmax(280px,1fr))] gap-[20px] items-center justify-center">
             {filteredProducts.map((product, index) => {
               return (
                 <ProductCard
